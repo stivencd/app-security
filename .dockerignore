@@ -1,5 +1,4 @@
 #.dockerignore
-#.dockerignore
 **/node_modules/
 **/.git
 **/README.md

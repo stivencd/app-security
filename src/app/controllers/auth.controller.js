@@ -12,7 +12,7 @@ const getUsersByCredentials = async (req, res) => {
         return res.status(200).json({ token: token, username: userName, expiration: process.env.TOKEN_EXPIRATION })
     }
     else
-        return res.status(401).send({ error: 'Unauthorized users stiven255' });
+        return res.status(401).send({ error: 'Unauthorized users stiven2555' });
 }
 
 module.exports = { getUsersByCredentials }

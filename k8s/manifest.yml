@@ -18,7 +18,7 @@ spec:
       - name: app-security
         image: stivid007/nodejs-security:4
         ports:
-        - containerPort: 8080
+        - containerPort: 5001
         env:
         - name: NACOS_SERVERADDR
           value: "164.90.255.230:8848"
@@ -42,5 +42,5 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8080
+    targetPort: 5001
     name: http
